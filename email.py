@@ -1,15 +1,15 @@
 #encoding=utf8
 
 """
-@author:zhengyi.clc
-@brief:send email for kingbaboon
+@author:chenlianchang
+@brief:send email
 @log:create at 2013-01-30:14:50
 """
 
 import os
 from datetime import datetime
 
-MALL_TO = ['qiyigjita@126.com', qiyingjita@163.com]
+MALL_TO = ['qiyigjita@126.com', 'qiyingjita@163.com']
 
 def process_mail():
     mydatetime = datetime.now()
